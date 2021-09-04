@@ -1,3 +1,38 @@
 export const projects=[
-    
+    {
+		img: 'https://github.com/pallav1998/hotwire_clone/blob/main/public/Screenshot%20(1).png?raw=true',
+		title: 'Hotwire -Travel App(Clone)',
+		des: 'Hotwire Travel app that that lets you book Hotels,Cars,Flights. Developed a look alike of it, Focusing mainly on Hotel Booking,Login.My role was to add all the functionalities to the website using json server and  built one page.Done in collaboration with 3 members, In  4 days ',
+		demo: "",
+		live: 'https://hotwire.netlify.app/',
+		gitHub: 'https://github.com/pallav1998/hotwire_clone',
+		technologies: ['React', 'Redux', 'JavaScript',"Material Ui","Json Server"],
+	},
+    {
+		img: 'https://raw.githubusercontent.com/maheshguptha49/Naukri-Clone/main/SitePictures/Screenshot%20(232).png?raw=true',
+		title: 'Naukri -Travel App(Clone)',
+		des: 'Naukri is an  app that that lets you Apply Jobs across many sectors . Developed a look alike of it, Focusing mainly on Apply,Login, and user profile section.Done in collaboration with 3 members, In  3 days ',
+		demo: "",
+		live: 'https://6v6lb.csb.app/',
+		gitHub: 'https://github.com/maheshguptha49/Naukri-Clone',
+		technologies: ['React', 'Redux', 'JavaScript',"Material Ui","Dynamic Routing"],
+	},
+    {
+		img: 'https://raw.githubusercontent.com/maheshguptha49/Sudoku-Solver/master/SitePictures/Screenshot%20(280).png',
+		title: 'Sudoku Solver -Solo Project',
+		des: 'Built a Sudoku solver website which solves Sudoku that runs on a backtracking Algorithm. It was built in a day. Used React memorisationfor optimising the renders of the site. ',
+		demo :"",
+		live: 'https://csb-i3c3y-ehe8px8ua-maheshguptha49.vercel.app/',
+		gitHub: 'https://github.com/maheshguptha49/Sudoku-Solver',
+		technologies: ['React', "Backtracking Algorithm","React Memoisation "],
+	},
+    {
+		img: 'https://github.com/Sonamkneelam/HealthKart/raw/main/SITE%20PICTURES/Screenshot%20(10).png',
+		title: 'HealthKart -Ecommerce App(Clone)',
+		des: 'healthKart Ecommerce app that that lets you buy products. Developed a look alike of it with just html css and javasript without any libraries, Focusing mainly on Buying, Login,Payment functionalities.Done in collaboration with 3 members, In under 2 weeks ',
+		demo: "",
+		live: 'https://github.com/Sonamkneelam/HealthKart/',
+		gitHub: 'https://github.com/Sonamkneelam/HealthKart/',
+		technologies: ["HTML","CSS","JavaScript"],
+	},
 ]

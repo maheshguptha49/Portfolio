@@ -20,23 +20,23 @@ const barStyle = {
 };
 
 const Navbar = () => {
-	const [preScrollPos, setPreScrollPos] = useState(
-		window.pageYOffset,
-	);
+	// const [preScrollPos, setPreScrollPos] = useState(
+	// 	window.pageYOffset,
+	// );
 	const navRef = useRef();
 
 	const { newTheme, mode, handleMode, open, handleMenu } =
 		useContext(ThemeContext);
 
-	window.onscroll = () => {
-		let currentScrollPos = window.pageYOffset;
-		if (preScrollPos > currentScrollPos) {
-			navRef.current.style.top = '0';
-		} else {
-			navRef.current.style.top = '-80px';
-		}
-		setPreScrollPos(currentScrollPos);
-	};
+	// window.onscroll = () => {
+	// 	let currentScrollPos = window.pageYOffset;
+	// 	if (preScrollPos > currentScrollPos) {
+	// 		navRef.current.style.top = '0';
+	// 	} else {
+	// 		navRef.current.style.top = '-80px';
+	// 	}
+	// 	setPreScrollPos(currentScrollPos);
+	// };
 
 	return (
 		<nav
@@ -48,7 +48,7 @@ const Navbar = () => {
 			}}
 		>
 			<div className={styles.navbar}>
-				<a href="#4">
+				<a href="https://portfolio-lilac-sigma.vercel.app/">
 					<div className={styles.logo}>
 						<img
 							src='https://i.pinimg.com/originals/8d/2d/1c/8d2d1c5e0ee9e5141f1fc51567dba572.png'

@@ -79,6 +79,16 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
+					<i class="devicon-materialui-plain colored"></i>
+					<span>Material Ui</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.buttonColor}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
 					<i
 						style={{ color: '#509941' }}
 						className='devicon-nodejs-plain'

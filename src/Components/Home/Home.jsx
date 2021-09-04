@@ -81,12 +81,12 @@ const Home = ({ scrollRef }) => {
 						<p>I build things on Internet</p>
 					</h1>
 					<div className={styles.btn}>
-						<a href='resume.pdf'>   
+						<a href='https://drive.google.com/file/d/1iJnkUdxBV6nPgrWPsP7J40hOgqbKTdNq/view?usp=sharing' target="_blank" rel="noreferrer">   
                         {/*  add resume here*/}
 							<Button
 								text={
 									<span className={styles.resumeBtn}>
-										<span>Resume</span>{' '}
+										<span>See my Resume 😇   </span>{' '}
 										{/* <i className='fas fa-file-download'></i> */}
 										<i class="fas fa-download"></i>
 									</span>
@@ -95,9 +95,12 @@ const Home = ({ scrollRef }) => {
 							/>
 						</a>
 					</div>
+					<h1 style={{marginTop:"60px"}}>Programming is an art where mind paints the logic on the Computer.... -Donald Knuth</h1>
 				</div>
 			</div>
 
+
+			
 			<div
 				id='about'
 				style={{

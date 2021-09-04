@@ -52,10 +52,6 @@ function App() {
 						<a onClick={handleMenu} href='#about'>
 							About
 						</a>
-						<a onClick={handleMenu} href='#experience'>
-							Experience
-						</a>
-
 						<a onClick={handleMenu} href='#projects'>
 							Projects
 						</a>

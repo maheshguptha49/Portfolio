@@ -15,7 +15,10 @@ const Contact = () => {
 					style={{ color: `${newTheme.para}` }}
 					className={styles.paragraph}
 				>
-					"/*Add a tagline like I am currently looking for a job*/"
+					One of my favorite things about developing web applications is the variety in projects. So if you want to collaborate or have some work for me , Get in touch and tell me what you have in mind. — I can’t wait to hear all about it! 😇
+					<br />
+					Gmail:maheshguptha49@gmail.com
+
 				</p>
 				<div
 					style={{ color: `${newTheme.title}` }}

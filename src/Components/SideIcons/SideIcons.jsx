@@ -4,6 +4,7 @@ import styles from './SideIcons.module.css';
 
 const SideIcons = () => {
 	const { newTheme } = React.useContext(ThemeContext);
+	console.log(newTheme)
 	return (
 		<div className={styles.container}>
 			<div
@@ -85,7 +86,7 @@ const SideIcons = () => {
 						target='_blank'
 						rel='noreferrer'
 						>
-							<img width="20px" src="https://img.icons8.com/ios/50/000000/gmail-new.png" alt="email"/>
+							{newTheme.title!=="white"?<img width="20px" src="https://img.icons8.com/ios/50/000000/gmail-new.png" alt="email"/>:<img width="20px" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/gmail_black_logo_icon_147126.png" alt="email"/>}
 						</a>
 					</li>
 				</div>
