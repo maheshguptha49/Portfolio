@@ -15,7 +15,7 @@ const TechStacks = () => {
 				style={{ color: `${newTheme.title}` }}
 				className={styles.heading}
 			>
-				Proficiencies
+				Skills
 			</h1>
 			<div className={styles.borderBottom} />
 			<div className={styles.container}>

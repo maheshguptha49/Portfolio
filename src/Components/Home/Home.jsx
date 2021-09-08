@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Home.module.css';
 import Card from '../Card/Card';
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 import SideIcons from '../SideIcons/SideIcons';
 import TechStacks from '../TechStacks/TechStacks';
 import AOS from 'aos';
@@ -12,8 +12,11 @@ import About from '../About/About';
 import { projects } from '../../Utils/Projects';
 import Contact from '../Contact/Contact';
 import { ThemeContext } from '../../ContextProvider/ThemeContext';
+import WindowSize from '../../Utils/WindowSize';
 
 const Home = ({ scrollRef }) => {
+	const [width]=WindowSize()
+	console.log(width,"width")
 	const [projectArray, setProjectArray] = useState(
 		projects.slice(0, 3),
 	);
@@ -43,11 +46,11 @@ const Home = ({ scrollRef }) => {
 				className={styles.profile}
 				style={{ backgroundColor: `${newTheme.imgBackground}` }}
 			>
-				<img
+				{width>650?<img
 					className={styles.profileImage}
-					src=''
+					src='https://raw.githubusercontent.com/maheshguptha49/Sandbox/master/PersonalPictiures/profilepic.jpeg'
 					alt='Profile pic'
-				/>
+				/>:""}
 				<div
 					id='home'
 					data-aos='fade-zoom-out'
@@ -77,8 +80,8 @@ const Home = ({ scrollRef }) => {
 								pauseFor: 1000,
 							}}
 						/> */}
-						<p>I am a Full Stack Developer</p>
-						<p>I build things on Internet</p>
+						<p style={{fontSize:"85%"}}>I am a Full Stack Developer</p>
+						<p style={{fontSize:"85%"}}>I build things on Internet</p>
 					</h1>
 					<div className={styles.btn}>
 						<a href='https://drive.google.com/file/d/1iJnkUdxBV6nPgrWPsP7J40hOgqbKTdNq/view?usp=sharing' target="_blank" rel="noreferrer">   
@@ -93,9 +96,14 @@ const Home = ({ scrollRef }) => {
 								}
 								handleButton={handleButton}
 							/>
+							{width<=650?<div>
+								<a href="#contact"><h2>Contact me</h2></a>
+							</div>:""
+							}
+
 						</a>
 					</div>
-					<h1 style={{marginTop:"60px"}}>Programming is an art where mind paints the logic on the Computer.... -Donald Knuth</h1>
+					<h2 style={{marginTop:"60px"}}>Programming is an art where mind paints the logic on the Computer.... -Donald Knuth</h2>
 				</div>
 			</div>
 

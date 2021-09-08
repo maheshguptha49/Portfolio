@@ -6,7 +6,7 @@ import styles from './About.module.css';
 const About = () => {
 	const { newTheme } = React.useContext(ThemeContext);
 	const [width] = WindowSize();
-	const img =width < 650?"":"https://miro.medium.com/max/1360/1*IRGHmiGsa16stedQvIaZfw.gif"
+	const img =width < 650?"https://raw.githubusercontent.com/maheshguptha49/Sandbox/master/PersonalPictiures/profilepic.jpeg":"https://miro.medium.com/max/1360/1*IRGHmiGsa16stedQvIaZfw.gif"
 	return (
 		<div
 			data-aos='fade-down'

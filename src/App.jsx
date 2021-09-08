@@ -56,7 +56,7 @@ function App() {
 							Projects
 						</a>
 						<a onClick={handleMenu} href='#techStacks'>
-							Profeciencies
+							Skills
 						</a>
 						<a onClick={handleMenu} href='#contact'>
 							Contact
