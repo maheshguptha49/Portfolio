@@ -18,6 +18,13 @@ const TechStacks = () => {
 				Skills
 			</h1>
 			<div className={styles.borderBottom} />
+			<h1
+				style={{ color: `${newTheme.title}` }}
+				className={styles.heading}
+			>
+				Front End
+			</h1>
+			<div className={styles.borderBottom} />
 			<div className={styles.container}>
 				<div
 					style={{
@@ -79,9 +86,33 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
+					<i
+						className='devicon-npm-original-wordmark colored'
+					/>
+					
+					<span>Npm</span>
+				</div>
+				
+				<div
+					style={{
+						color: `${newTheme.buttonColor}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
 					<i class="devicon-materialui-plain colored"></i>
 					<span>Material Ui</span>
 				</div>
+				</div>
+				<h1
+				style={{ color: `${newTheme.title}` }}
+				className={styles.heading}
+			    >
+				Back End
+			   </h1>
+			<div className={styles.borderBottom} />
+				<div className={styles.container}>
+				
 				<div
 					style={{
 						color: `${newTheme.buttonColor}`,
@@ -115,7 +146,18 @@ const TechStacks = () => {
 					<i className='devicon-mongodb-plain colored' />
 					<span>MongoDB</span>
 				</div>
+				{/* <div
+					style={{
+						color: `${newTheme.buttonColor}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i className='devicon-mongodb-plain colored' />
+					<span>MongoDB</span>
+				</div> */}
 			</div>
+			
 		</div>
 	);
 };

@@ -18,7 +18,7 @@ const Home = ({ scrollRef }) => {
 	const [width]=WindowSize()
 	console.log(width,"width")
 	const [projectArray, setProjectArray] = useState(
-		projects.slice(0, 3),
+		projects
 	);
 	const { newTheme } = React.useContext(ThemeContext);
 	useEffect(() => {
@@ -31,13 +31,13 @@ const Home = ({ scrollRef }) => {
 
 	const handleButton = () => {};
 
-	const handleShowMoreBtn = () => {
-		if (projects.length === projectArray.length) {
-			setProjectArray(projects.slice(0, 3));
-		} else {
-			setProjectArray(projects);
-		}
-	};
+	// const handleShowMoreBtn = () => {
+	// 	if (projects.length === projectArray.length) {
+	// 		setProjectArray(projects.slice(0, 3));
+	// 	} else {
+	// 		setProjectArray(projects);
+	// 	}
+	// };
 	return (
 		<div ref={scrollRef}>
 			<SideIcons />
@@ -119,7 +119,7 @@ const Home = ({ scrollRef }) => {
 				<About />
 			</div>
 
-			<div id='techStacks' className={styles.techStacks}>
+			<div id='techstacks' className={styles.techStacks}>
 				<TechStacks />
 			</div>
 
@@ -147,7 +147,7 @@ const Home = ({ scrollRef }) => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.heading}
 				>
-					Few Things I've Build
+					Projects
 				</h1>
 				<div className={styles.borderBottom} />
 				<div>
@@ -155,14 +155,14 @@ const Home = ({ scrollRef }) => {
 						<Card key={index} {...item} />
 					))}
 				</div>
-				<Button
+				{/* <Button
 					text={
 						projects.length !== projectArray.length
 							? 'Show More'
 							: 'Show Less'
 					}
 					handleButton={handleShowMoreBtn}
-				/>
+				/> */}
 			</div>
 
 			<div

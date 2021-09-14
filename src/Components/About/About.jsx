@@ -32,7 +32,7 @@ const About = () => {
 					className={styles.aboutMe}
 				>
 					I am a Full stack web developer. I have made some projects using HTML, CSS, Javascript, React,  Node.js, Mongodb and Express. 
-					<br /><br />I am passionate about solving real-world problems in the field of web development and software engineering. Eager to be a part of a team which gives me ability to learn and grow .
+					<br /><br />I am passionate about solving real-world problems in the feild of web development and software engineering. Eager to be a part of a team which gives me ability to learn and grow .
 				</p>
 			</div>
 		</div>
