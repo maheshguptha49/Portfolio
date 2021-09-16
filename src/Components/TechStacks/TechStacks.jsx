@@ -155,7 +155,7 @@ const TechStacks = () => {
 				Data structures and Algorithms
 			   </h1>
 			   <div className={styles.borderBottom} /> <div className={styles.container}>
-			<div
+			   <div
 					style={{
 						color: `${newTheme.buttonColor}`,
 						background: `${newTheme.linkHover}`,
@@ -163,8 +163,8 @@ const TechStacks = () => {
 					className={styles.logoWrapper}
 				>
 					<a href="https://www.hackerrank.com/maheshguptha49" target="_blank" rel="noreferrer">
-					<img src="https://media-exp1.licdn.com/dms/image/sync/C4E27AQGxwQmQ5JvTyQ/articleshare-shrink_800/0/1630920305735?e=1631797200&v=beta&t=HmstUJr9Efi9Gb85gUv5dllp9g9DzLfKR1m6RIDguO4" alt=""  width="100px"
-					style={{borderRadius:"90%"}}  />
+					<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="45435"  width="60px"
+					style={{borderRadius:"90%",marginLeft:"5px"}}  />
 					<span style={{fontSize:"70%"}}>Hacker rank</span>
 					<span style={{fontSize:"70%"}}> 5 Star badge</span>
 					{/* <span>Click me</span> */}
