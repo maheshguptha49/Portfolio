@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Home.module.css';
 import Card from '../Card/Card';
-// import Typewriter from 'typewriter-effect';
+import Typewriter from 'typewriter-effect';
 import SideIcons from '../SideIcons/SideIcons';
 import TechStacks from '../TechStacks/TechStacks';
 import AOS from 'aos';
@@ -67,7 +67,7 @@ const Home = ({ scrollRef }) => {
 						</div>
 					</h1>
 					<h1>
-						{/* <Typewriter
+						<Typewriter
 							options={{
 								strings: [
 									'I am a Full Stack Developer.',
@@ -79,9 +79,9 @@ const Home = ({ scrollRef }) => {
 								deleteSpeed: 25,
 								pauseFor: 1000,
 							}}
-						/> */}
-						<p style={{fontSize:"85%"}}>I am a Full Stack Developer</p>
-						<p style={{fontSize:"85%"}}>I build things on Internet</p>
+						/>
+						{/* <p style={{fontSize:"85%"}}>I am a Full Stack Developer</p>
+						<p style={{fontSize:"85%"}}>I build things on Internet</p> */}
 					</h1>
 					<div className={styles.btn}>
 						<a href='https://drive.google.com/file/d/1iJnkUdxBV6nPgrWPsP7J40hOgqbKTdNq/view?usp=sharing' target="_blank" rel="noreferrer">   

@@ -146,18 +146,33 @@ const TechStacks = () => {
 					<i className='devicon-mongodb-plain colored' />
 					<span>MongoDB</span>
 				</div>
-				{/* <div
+								
+			</div>
+			<h1
+				style={{ color: `${newTheme.title}` }}
+				className={styles.heading}
+			    >
+				Data structures and Algorithms
+			   </h1>
+			   <div className={styles.borderBottom} /> <div className={styles.container}>
+			<div
 					style={{
 						color: `${newTheme.buttonColor}`,
 						background: `${newTheme.linkHover}`,
 					}}
 					className={styles.logoWrapper}
 				>
-					<i className='devicon-mongodb-plain colored' />
-					<span>MongoDB</span>
-				</div> */}
-			</div>
+					<a href="https://www.hackerrank.com/maheshguptha49" target="_blank" rel="noreferrer">
+					<img src="https://media-exp1.licdn.com/dms/image/sync/C4E27AQGxwQmQ5JvTyQ/articleshare-shrink_800/0/1630920305735?e=1631797200&v=beta&t=HmstUJr9Efi9Gb85gUv5dllp9g9DzLfKR1m6RIDguO4" alt=""  width="100px"
+					style={{borderRadius:"90%"}}  />
+					<span style={{fontSize:"70%"}}>Hacker rank</span>
+					<span style={{fontSize:"70%"}}> 5 Star badge</span>
+					{/* <span>Click me</span> */}
+					</a>
+				</div>
+			   </div>
 			
+
 		</div>
 	);
 };

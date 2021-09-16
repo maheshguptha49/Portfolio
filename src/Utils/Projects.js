@@ -20,7 +20,7 @@ export const projects=[
 	{
 		img: 'https://github.com/Sonamkneelam/HealthKart/raw/main/SITE%20PICTURES/Screenshot%20(10).png',
 		title: 'HealthKart -Ecommerce App(Clone)',
-		des: 'healthKart Ecommerce app that that lets you buy products. Developed a look alike of it with just html css and javasript without any libraries, Focusing mainly on Buying, Login,Payment functionalities.Done in collaboration with 3 members, In under 2 weeks ',
+		des: 'HealthKart is an Ecommerce app that that lets you buy products. Developed a look alike of it with just html css and javasript without any libraries, Focusing mainly on Buying, Login,Payment functionalities.Done in collaboration with 3 members, In under 2 weeks ',
 		demo: "",
 		live: 'https://maheshguptha49.github.io/HealthKart/',
 		gitHub: 'https://github.com/Sonamkneelam/HealthKart/',
@@ -38,7 +38,7 @@ export const projects=[
     {
 		img: 'https://raw.githubusercontent.com/maheshguptha49/Ketnips/master/Site%20PIctures/Screenshot%20(37).png',
 		title: 'Ketnipz -Ecommerce App(Clone)',
-		des: 'This is a working clone of the ketnipz website, this project has been done in order to learn the dynamic routing and secure routing in react This has been done in 1 day.This is a solo project that is done by me.',
+		des: 'This is a working clone of the ketnipz website.This has been done in 1 day.This is a solo project that is done by me. This project has been done in order to learn the dynamic routing and secure routing in react. ',
 		demo: "",
 		live: 'https://ketnips.vercel.app/',
 		gitHub: 'https://github.com/maheshguptha49/Ketnips',

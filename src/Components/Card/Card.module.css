@@ -9,6 +9,7 @@
 	border-radius: 30px;
 	backdrop-filter: blur(5px);
 	opacity: 0.8;
+	min-height:350px
 }
 
 .card__Container {
@@ -34,7 +35,7 @@
 .colorDiv {
 	width: 100%;
 	height: 300px;
-	background: #37687c;
+	/* background: #37687c; */
 	position: absolute;
 	z-index: 10;
 	top: 0;
@@ -55,21 +56,22 @@
 	align-items: center;
 	position: absolute;
 	z-index: 16;
-	right: 85%;
-	top: -30%;
-	opacity: 0;
+	right: 2%;
+	top: 103%;
+	opacity: 1;
 	transform: translateX(0);
 	transition: 0.5s;
+	/* margin-bottom: 20px; */
 }
 
-.card:hover .card__Container .description {
+/* .card:hover .card__Container .description {
 	width: 40%;
 	opacity: 1;
 	top: 80%;
 	right: 80%;
 	backdrop-filter: blur(20px);
-}
-
+} */
+/* removed hover effect here*/
 .titleContainer {
 	text-align: right;
 }
@@ -182,7 +184,8 @@
 	.titleContainer p {
 		width: 90%;
 		max-height: 150px;
-		overflow: hidden;
+		overflow: scroll;
+		padding:5px;
 		/* background: chocolate !important; */
 	}
 	.card .card__Container .description {
