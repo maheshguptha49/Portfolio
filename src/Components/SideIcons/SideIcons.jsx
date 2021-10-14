@@ -86,7 +86,7 @@ const SideIcons = () => {
 						target='_blank'
 						rel='noreferrer'
 						>
-							{newTheme.title!=="white"?<img width="20px" src="https://img.icons8.com/ios/50/000000/gmail-new.png" alt="email"/>:<img width="20px" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/gmail_black_logo_icon_147126.png" alt="email"/>}
+							{newTheme.title!=="white"?<img width="20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ4igrsBZmQcoSZ0cB-5CS6Qj0qcT4kTomZQ&usqp=CAU" alt="email"/>:<img src="https://freesvg.org/img/Mail-Icon-White-on-Black.png" alt="email" width="35px"/>}
 						</a>
 					</li>
 				</div>
