@@ -48,6 +48,16 @@ export const projects = [
     ],
   },
   {
+    img: "https://github.com/Sonamkneelam/HealthKart/raw/main/SITE%20PICTURES/Screenshot%20(10).png",
+    title: "HealthKart -Ecommerce App(Clone)",
+    des: "HealthKart is an Ecommerce app that that lets you buy products. Developed a look alike of it with just html css and javasript without any libraries, Focusing mainly on Buying, Login,Payment functionalities.Done in collaboration with 3 members, In under 2 weeks ",
+    demo: "https://drive.google.com/file/d/1R6b9PWdT2xsNTxz7A3kV96bCINQAS_aO/view?usp=sharing",
+    live: "https://maheshguptha49.github.io/HealthKart/",
+    gitHub: "https://github.com/Sonamkneelam/HealthKart/",
+
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
     img: "https://raw.githubusercontent.com/maheshguptha49/Naukri-Clone/main/SitePictures/Screenshot%20(232).png?raw=true",
     title: "Naukri -Travel App(Clone)",
     des: "Naukri is an  app that that lets you Apply Jobs across many sectors . Developed a look alike of it, Focusing mainly on Apply,Login, and user profile section.Done in collaboration with 3 members, In  3 days ",
@@ -62,16 +72,7 @@ export const projects = [
       "Dynamic Routing",
     ],
   },
-  {
-    img: "https://github.com/Sonamkneelam/HealthKart/raw/main/SITE%20PICTURES/Screenshot%20(10).png",
-    title: "HealthKart -Ecommerce App(Clone)",
-    des: "HealthKart is an Ecommerce app that that lets you buy products. Developed a look alike of it with just html css and javasript without any libraries, Focusing mainly on Buying, Login,Payment functionalities.Done in collaboration with 3 members, In under 2 weeks ",
-    demo: "https://drive.google.com/file/d/1R6b9PWdT2xsNTxz7A3kV96bCINQAS_aO/view?usp=sharing",
-    live: "https://maheshguptha49.github.io/HealthKart/",
-    gitHub: "https://github.com/Sonamkneelam/HealthKart/",
 
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
   {
     img: "https://raw.githubusercontent.com/maheshguptha49/Sudoku-Solver/master/SitePictures/Screenshot%20(280).png",
     title: "Sudoku Solver -Solo Project",
