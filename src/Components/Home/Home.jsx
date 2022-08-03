@@ -48,7 +48,7 @@ const Home = ({ scrollRef }) => {
 			>
 				{width>650?<img
 					className={styles.profileImage}
-					src='https://raw.githubusercontent.com/maheshguptha49/evaluation1/main/assets/profilepic.jpeg'
+					src='https://raw.githubusercontent.com/maheshguptha49/Sandbox/master/PersonalPictiures/profilepic.jpeg'
 					alt='Profile pic'
 				/>:""}
 				<div
