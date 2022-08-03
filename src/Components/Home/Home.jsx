@@ -48,7 +48,7 @@ const Home = ({ scrollRef }) => {
 			>
 				{width>650?<img
 					className={styles.profileImage}
-					src='https://raw.githubusercontent.com/maheshguptha49/Sandbox/master/PersonalPictiures/profilepic.jpeg'
+					src='https://raw.githubusercontent.com/maheshguptha49/evaluation1/main/assets/profilepic.jpeg'
 					alt='Profile pic'
 				/>:""}
 				<div
@@ -84,7 +84,7 @@ const Home = ({ scrollRef }) => {
 						<p style={{fontSize:"85%"}}>I build things on Internet</p> */}
 					</h1>
 					<div className={styles.btn}>
-						<a href='https://drive.google.com/file/d/1oJCfvVGXsRgDLArkxZ3xa7-5dADMG4SX/view?usp=sharing' target="_blank" rel="noreferrer">   
+						<a href='https://drive.google.com/file/d/1TU5Kxzf0yIYUYOY1_w5lmudz-pYJiLee/view?usp=sharing' target="_blank" rel="noreferrer">   
                         {/*  add resume here*/}
 							<Button
 								text={
