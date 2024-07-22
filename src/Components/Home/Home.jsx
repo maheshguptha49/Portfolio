@@ -48,7 +48,7 @@ const Home = ({ scrollRef }) => {
 			>
 				{width>650?<img
 					className={styles.profileImage}
-					src='/Maheshphoto_prev_ui.png'
+					src='https://i.imgur.com/7HpZ729.png'
                                         style={{scale:"70%"}}
 					alt='Profile pic'
 				/>:""}
