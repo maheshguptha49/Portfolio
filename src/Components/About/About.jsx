@@ -8,7 +8,7 @@ const About = () => {
   const [width] = WindowSize();
   const img =
     width < 650
-      ? "https://raw.githubusercontent.com/maheshguptha49/Sandbox/master/PersonalPictiures/profilepic.jpeg"
+      ? "https://i.imgur.com/7HpZ729.png"
       : "https://miro.medium.com/max/1360/1*IRGHmiGsa16stedQvIaZfw.gif";
   return (
     <div
