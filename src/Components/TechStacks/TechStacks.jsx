@@ -100,7 +100,7 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
-					<i class="devicon-materialui-plain colored"></i>
+					<i className="devicon-materialui-plain colored"></i>
 					<span>Material Ui</span>
 				</div>
 				</div>
