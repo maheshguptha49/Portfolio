@@ -85,7 +85,7 @@ const Home = ({ scrollRef }) => {
 						<p style={{fontSize:"85%"}}>I build things on Internet</p> */}
 					</h1>
 					<div className={styles.btn}>
-						<a href='https://drive.google.com/file/d/1TU5Kxzf0yIYUYOY1_w5lmudz-pYJiLee/view?usp=sharing' target="_blank" rel="noreferrer">   
+						<a href='https://drive.google.com/file/d/13PeTq922yQ9LVoAnnjnfswvKHCt4C1lr/view?usp=sharing' target="_blank" rel="noreferrer">   
                         {/*  add resume here*/}
 							<Button
 								text={
