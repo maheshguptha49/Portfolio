@@ -1,7 +1,7 @@
 export const projects = [
   {
     img: "https://github.com/maheshguptha49/HighDash_Hackathon-/blob/master/sitePictures/Screenshot%20(90).png?raw=true",
-    title: "Streamline a live shows hosting platform",
+    title: "Streamline a live shows hosting platform (Year 2021)",
     des: "We won the Masai  hackathon  with this app😇. Stream line is a shows hosting platform where you can post an event and everyone can book the event and do the payment and after that we can start the show live and and everyone can come to the live and interact and the show can be conducted, The Ui Design and idea of the product is designed by us. Built it in 48 hours with 4 members",
     demo: "https://drive.google.com/file/d/1w5BbNYtrbxdopJXyqbeuONSr4S0Wrlf8/view?usp=sharing",
     live: "https://streamline-acp24.vercel.app/",
@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     img: "https://raw.githubusercontent.com/Subham-Abhishek/Pinterest-clone/master/SitePictures/Screenshot%20(84).png?raw=true",
-    title: "Pinterest -Social media App(Clone)",
+    title: "Pinterest -Social media App(Clone) (Year 2021)",
     des: "Pinterest is a Social media app that that lets you post nice Images . Developed a look alike of it, Focusing mainly on posting pictures,Commenting,Authentication,Following.Implemented Lazy loading,Skelton loading,Infinite scrolling,Debouncing,JWT authentication,cool carousel.Done in collaboration with 3 members, In  4 days ",
     demo: "https://drive.google.com/file/d/1vU_SP_QHDv2b8PmXSziLtaRwZEzTijGg/view?usp=sharing",
     live: "https://pinshow.netlify.app/",
@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     img: "https://github.com/pallav1998/hotwire_clone/blob/main/public/Screenshot%20(1).png?raw=true",
-    title: "Hotwire -Travel App(Clone)",
+    title: "Hotwire -Travel App(Clone) (Year 2021)",
     des: "Hotwire is a Travel app that that lets you book Hotels,Cars,Flights. Developed a look alike of it, Focusing mainly on Hotel Booking,Login. Done in collaboration with 3 members, In  4 days ",
     demo: "https://drive.google.com/file/d/1TfJjpGEvwGqAeRbw4F7pM6wtZcfQsRM7/view?usp=sharing",
     live: "https://hotwire.netlify.app/",
@@ -49,7 +49,7 @@ export const projects = [
   },
   {
     img: "https://github.com/Sonamkneelam/HealthKart/raw/main/SITE%20PICTURES/Screenshot%20(10).png",
-    title: "HealthKart -Ecommerce App(Clone)",
+    title: "HealthKart -Ecommerce App(Clone) (Year 2021)",
     des: "HealthKart is an Ecommerce app that that lets you buy products. Developed a look alike of it with just html css and javasript without any libraries, Focusing mainly on Buying, Login,Payment functionalities.Done in collaboration with 3 members, In under 2 weeks ",
     demo: "https://drive.google.com/file/d/1R6b9PWdT2xsNTxz7A3kV96bCINQAS_aO/view?usp=sharing",
     live: "https://maheshguptha49.github.io/HealthKart/",
@@ -59,7 +59,7 @@ export const projects = [
   },
   {
     img: "https://raw.githubusercontent.com/maheshguptha49/Naukri-Clone/main/SitePictures/Screenshot%20(232).png?raw=true",
-    title: "Naukri -Travel App(Clone)",
+    title: "Naukri -Travel App(Clone) (Year 2021)",
     des: "Naukri is an  app that that lets you Apply Jobs across many sectors . Developed a look alike of it, Focusing mainly on Apply,Login, and user profile section.Done in collaboration with 3 members, In  3 days ",
     demo: "https://drive.google.com/file/d/1n0-McI_GFWqzQoG4GXXrXm0IKsPsFcnF/view?usp=sharing",
     live: "https://6v6lb.csb.app/",
@@ -75,7 +75,7 @@ export const projects = [
 
   {
     img: "https://raw.githubusercontent.com/maheshguptha49/Sudoku-Solver/master/SitePictures/Screenshot%20(280).png",
-    title: "Sudoku Solver -Solo Project",
+    title: "Sudoku Solver -Solo Project (Year 2021)",
     des: "Built a Sudoku solver website which solves Sudoku that runs on a backtracking Algorithm. It was built in a day. Used React memorisation for optimising the renders of the site. ",
     demo: "https://drive.google.com/file/d/1gGKJ2TyXxIBTKJZ-QW9RbZJAyZEkBpxY/view?usp=sharing",
     live: "https://csb-i3c3y.vercel.app/",
@@ -84,7 +84,7 @@ export const projects = [
   },
   {
     img: "https://raw.githubusercontent.com/maheshguptha49/Ketnips/master/Site%20PIctures/Screenshot%20(37).png",
-    title: "Ketnipz -Ecommerce App(Clone)",
+    title: "Ketnipz -Ecommerce App(Clone) (Year 2021)",
     des: "This is a working clone of the ketnipz website.This has been done in 1 day.This is a solo project that is done by me. This project has been done in order to learn the dynamic routing and secure routing in react. ",
     demo: "https://drive.google.com/file/d/1V2NyR_xyTd2W_OroUGltBjkL0YTpKrJR/view?usp=sharing",
     live: "https://ketnips.vercel.app/",

@@ -14,7 +14,11 @@ const Contact = () => {
           for me , Get in touch and tell me what you have in mind. — I can’t
           wait to hear all about it! 😇
           <br />
-          Gmail:maheshguptha49@gmail.com
+          <a href="mailto:maheshguptha49@gmail.com">
+            Gmail:maheshguptha49@gmail.com
+          </a>
+          <br />
+          <a href="tel:6281753294">6281753294</a>
         </p>
         <div
           style={{ color: `${newTheme.title}` }}
