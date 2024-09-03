@@ -1,5 +1,22 @@
 export const projects = [
   {
+    img: "/figma-clone.png",
+    title: "Figma A tool for designers (clone)",
+    des: "Figma is a tool for creating designs which developers use to code. It has many features like Comment Bubbles, Free from drawing, Shapes creation, Undo/Redo ,. I used fabric.js and liveblocks to make this. Multi Cursors, Cursor Chat, and Reactions: Allows multiple users to collaborate simultaneously by showing individual cursors, enabling real-time chat, and reactions for interactive communication. ",
+    // demo: "",
+    live: "https://figma-clone-rose.vercel.app",
+    gitHub: "https://github.com/maheshguptha49/figma_clone",
+    technologies: [
+      "Next js",
+      "Typescript",
+      "Tailwind",
+      "MongoDb",
+      "Shadcn",
+      "Fabric js",
+      "Tailwind css",
+    ],
+  },
+  {
     img: "https://github.com/maheshguptha49/HighDash_Hackathon-/blob/master/sitePictures/Screenshot%20(90).png?raw=true",
     title: "Streamline a live shows hosting platform (Year 2021)",
     des: "We won the Masai  hackathon  with this app😇. Stream line is a shows hosting platform where you can post an event and everyone can book the event and do the payment and after that we can start the show live and and everyone can come to the live and interact and the show can be conducted, The Ui Design and idea of the product is designed by us. Built it in 48 hours with 4 members",
