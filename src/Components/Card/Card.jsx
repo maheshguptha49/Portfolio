@@ -65,9 +65,11 @@ const Card = (props) => {
           <a href={live} rel="noopener noreferrer" target="_blank">
             <img src="out.svg" alt="play" width={35} height={35} />
           </a>
-          <a href={demo} rel="noopener noreferrer" target="_blank">
-            <img src="youtube.svg" alt="play" width={35} height={35} />
-          </a>
+          {demo && (
+            <a href={demo} rel="noopener noreferrer" target="_blank">
+              <img src="youtube.svg" alt="play" width={35} height={35} />
+            </a>
+          )}
         </div>
       </div>
     </div>
