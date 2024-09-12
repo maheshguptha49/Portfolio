@@ -4,7 +4,7 @@ export const projects = [
     title: "Streamline a live shows hosting platform (Year 2021)",
     des: "We won the Masai  hackathon  with this app😇. Stream line is a shows hosting platform where you can post an event and everyone can book the event and do the payment and after that we can start the show live and and everyone can come to the live and interact and the show can be conducted, The Ui Design and idea of the product is designed by us. Built it in 48 hours with 4 members",
     demo: "https://drive.google.com/file/d/1w5BbNYtrbxdopJXyqbeuONSr4S0Wrlf8/view?usp=sharing",
-    live: "https://streamline-acp24.vercel.app/",
+    live: "https://streamline-steel.vercel.app/",
     gitHub: "https://github.com/maheshguptha49/HighDash_Hackathon",
     technologies: [
       "React",
